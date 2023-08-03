@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="weatherView" prefHeight="632.0" prefWidth="900.0" stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WeatherViewController">
+    <children>
+        <Label layoutX="68.0" layoutY="102.0" text="City Information">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Label layoutX="75.0" layoutY="149.0" text="City:" />
+        <Label layoutX="75.0" layoutY="176.0" text="Region:" />
+        <Label layoutX="75.0" layoutY="203.0" text="Country:" />
+        <Label layoutX="75.0" layoutY="230.0" text="Latitude:" />
+        <Label layoutX="75.0" layoutY="257.0" text="Longitude:" />
+        <Label layoutX="75.0" layoutY="284.0" text="Timezone:" />
+        <Label layoutX="75.0" layoutY="311.0" text="Local Time:" />
+        <Label fx:id="cityLabel" layoutX="141.0" layoutY="149.0" />
+        <Label fx:id="regionLabel" layoutX="141.0" layoutY="176.0" />
+        <Label fx:id="countryLabel" layoutX="141.0" layoutY="203.0" />
+        <Label fx:id="latitudeLabel" layoutX="141.0" layoutY="230.0" />
+        <Label fx:id="longitudeLabel" layoutX="141.0" layoutY="257.0" />
+        <Label fx:id="timezoneLabel" layoutX="141.0" layoutY="284.0" />
+        <Label fx:id="localTimeLabel" layoutX="141.0" layoutY="311.0" />
+        <Label layoutX="508.0" layoutY="102.0" text="Weather Information">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+        <Label layoutX="375.0" layoutY="149.0" text="Temperature (C):" />
+        <Label layoutX="375.0" layoutY="176.0" text="Temperature (F):" />
+        <Label layoutX="375.0" layoutY="203.0" text="Is Day:" />
+        <Label layoutX="375.0" layoutY="230.0" text="Condition:" />
+        <Label layoutX="375.0" layoutY="257.0" text="Wind (mph):" />
+        <Label layoutX="375.0" layoutY="284.0" text="Wind (kph):" />
+        <Label layoutX="375.0" layoutY="311.0" text="Wind Degree:" />
+        <Label layoutX="375.0" layoutY="338.0" text="Wind Direction:" />
+        <Label layoutX="375.0" layoutY="365.0" text="Pressure (mb):" />
+        <Label layoutX="375.0" layoutY="392.0" text="Pressure (in):" />
+        <Label layoutX="375.0" layoutY="419.0" text="Precipitation (mm):" />
+        <Label layoutX="375.0" layoutY="446.0" text="Precipitation (in):" />
+        <Label layoutX="665.0" layoutY="154.0" text="Humidity:" textAlignment="JUSTIFY" />
+        <Label layoutX="665.0" layoutY="181.0" text="Cloud:" textAlignment="JUSTIFY" />
+        <Label layoutX="665.0" layoutY="208.0" text="Feels Like (C):" textAlignment="JUSTIFY" />
+        <Label layoutX="665.0" layoutY="235.0" text="Feels Like (F):" textAlignment="JUSTIFY" />
+        <Label layoutX="665.0" layoutY="262.0" text="Visibility (km):" textAlignment="JUSTIFY" />
+        <Label layoutX="665.0" layoutY="289.0" text="Visibility (miles):" textAlignment="JUSTIFY" />
+        <Label layoutX="665.0" layoutY="316.0" text="UV:" textAlignment="JUSTIFY" />
+        <Label layoutX="665.0" layoutY="343.0" text="Gust (mph):" textAlignment="JUSTIFY" />
+        <Label layoutX="665.0" layoutY="370.0" text="Gust (kph):" textAlignment="JUSTIFY" />
+        <Label layoutX="665.0" layoutY="397.0" text="Air Quality CO:" textAlignment="JUSTIFY" />
+        <Label layoutX="665.0" layoutY="424.0" text="Air Quality NO2:" textAlignment="JUSTIFY" />
+        <Label layoutX="665.0" layoutY="451.0" text="Air Quality O3:" textAlignment="JUSTIFY" />
+        <Label fx:id="temperatureCLabel" layoutX="483.0" layoutY="149.0" />
+        <Label fx:id="temperatureFLabel" layoutX="483.0" layoutY="176.0" />
+        <Label fx:id="isDayLabel" layoutX="483.0" layoutY="203.0" />
+        <Label fx:id="conditionLabel" layoutX="483.0" layoutY="230.0" />
+        <Label fx:id="windMphLabel" layoutX="483.0" layoutY="257.0" />
+        <Label fx:id="windKphLabel" layoutX="483.0" layoutY="284.0" />
+        <Label fx:id="windDegreeLabel" layoutX="483.0" layoutY="311.0" />
+        <Label fx:id="windDirLabel" layoutX="483.0" layoutY="338.0" />
+        <Label fx:id="pressureMbLabel" layoutX="483.0" layoutY="365.0" />
+        <Label fx:id="pressureInLabel" layoutX="483.0" layoutY="392.0" />
+        <Label fx:id="precipMmLabel" layoutX="483.0" layoutY="419.0" />
+        <Label fx:id="precipInLabel" layoutX="483.0" layoutY="446.0" />
+        <Label fx:id="humidityLabel" layoutX="767.0" layoutY="154.0" />
+        <Label fx:id="cloudLabel" layoutX="767.0" layoutY="181.0" />
+        <Label fx:id="feelsLikeCLabel" layoutX="767.0" layoutY="208.0" />
+        <Label fx:id="feelsLikeFLabel" layoutX="767.0" layoutY="235.0" />
+        <Label fx:id="visKmLabel" layoutX="767.0" layoutY="262.0" />
+        <Label fx:id="visMilesLabel" layoutX="767.0" layoutY="289.0" />
+        <Label fx:id="uvLabel" layoutX="767.0" layoutY="316.0" />
+        <Label fx:id="gustMphLabel" layoutX="767.0" layoutY="343.0" />
+        <Label fx:id="gustKphLabel" layoutX="767.0" layoutY="370.0" />
+        <Label fx:id="airQualityCOLabel" layoutX="767.0" layoutY="397.0" />
+        <Label fx:id="airQualityNO2Label" layoutX="767.0" layoutY="424.0" />
+        <Label fx:id="airQualityO3Label" layoutX="767.0" layoutY="451.0" />
+        <ImageView fx:id="gifImageView" fitHeight="171.0" fitWidth="305.0" layoutX="27.0" layoutY="383.0" />
+      <Label layoutX="343.0" layoutY="36.0" text="WEATHER APPLICATION">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

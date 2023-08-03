@@ -1,0 +1,57 @@
+/* Global styles */
+.root {
+    -fx-background-color: #5F4B8B; /* Ultra Violet background color */
+}
+
+/* SearchView.fxml styles */
+#searchView {
+    -fx-background-color: #F9EBEA; /* Blooming Dahlia background color */
+    -fx-padding: 20px;
+}
+
+#searchButton, #submitCityButton {
+    -fx-background-color: #5F4B8B; /* Ultra Violet button background color */
+    -fx-text-fill: #F1948A; /* Blooming Dahlia font color */
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px;
+}
+
+#searchButton:hover, #submitCityButton:hover {
+    -fx-background-color: #76448A; /* Slightly darker shade of Ultra Violet */
+}
+
+#cityTextField {
+    -fx-border-color: #5F4B8B;
+    -fx-border-width: 1px;
+    -fx-prompt-text-fill: #5F4B8B; /* Ultra Violet font color for prompt text */
+}
+
+#cityListView {
+    -fx-border-color: #5F4B8B;
+    -fx-border-width: 1px;
+}
+
+/* WeatherView.fxml styles */
+#weatherView {
+    -fx-background-color: #F9EBEA; /* Blooming Dahlia background color */
+    -fx-padding: 20px;
+}
+
+#gifImageView {
+    -fx-effect: dropshadow(gaussian, #5F4B8B, 10, 0, 0, 0); /* Ultra Violet drop shadow */
+}
+
+/* Labels and font styles */
+.label {
+    -fx-text-fill: #5F4B8B; /* Ultra Violet font color */
+}
+
+#cityLabel, #temperatureCLabel, #temperatureFLabel, #conditionLabel {
+    -fx-font-weight: bold;
+}
+
+/* Update the font for the title */
+.label#weatherTitle {
+    -fx-font-weight: bold;
+    -fx-text-fill: #5F4B8B; /* Ultra Violet font color */
+}
